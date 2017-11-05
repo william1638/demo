@@ -8,7 +8,7 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>api-gateway</name>
+	<name>config-client</name>
 	<description>Spring Cloud In Action</description>
 
 	<parent>
@@ -26,7 +26,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-start-config</artifactId>
+			<artifactId>spring-cloud-config-client</artifactId>
 		</dependency>
 
 		<dependency>
